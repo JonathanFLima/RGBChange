@@ -5,7 +5,7 @@ body {
 
 .container {
   width: 90vw;
-  height: 95vh;
+  height: 90vh;
   border: rgb(0, 0, 0, 0.3) solid 2px;
   border-radius: 10px;
   align-items: center;
