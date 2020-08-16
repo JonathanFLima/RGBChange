@@ -7,28 +7,31 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <h1 id="titulo">Tabela RGB</h1>
-    <div class="cores">
-      <p>
-        <div class="cor">(R) Vermelho:</div>
-        <input type="range" id="rangeRed" value="255" min="0" max="255" />
-        <input type="text" id="textRed" value="255" disabled />
-      </p>
-
-      <p>
-        <div class="cor">(G) Verde:</div>
-        <input type="range" id="rangeGreen" value="255" min="0" max="255" />
-        <input type="text" id="textGreen" value="255" disabled />
-      </p>
-
-      <p>
-        <div class="cor">(B) Azul:</div>
-        <input type="range" id="rangeBlue" value="255" min="0" max="255" />
-        <input type="text" id="textBlue" value="255" disabled />
-      </p>
+    <div class="container">
+      <h1 id="titulo">Tabela RGB</h1>
+      <div class="cores">
+        <p>
+          <div class="cor">(R) Vermelho:</div>
+          
+          <input type="range" id="rangeRed" value="255" min="0" max="255" />
+          <input type="text" id="textRed" value="255" disabled />
+        </p>
+        
+        <p>
+          <div class="cor">(G) Verde:</div>
+          <input type="range" id="rangeGreen" value="255" min="0" max="255" />
+          <input type="text" id="textGreen" value="255" disabled />
+        </p>
+        
+        <p>
+          <div class="cor">(B) Azul:</div>
+          <input type="range" id="rangeBlue" value="255" min="0" max="255" />
+          <input type="text" id="textBlue" value="255" disabled />
+        </p>
+      </div>
+      <br />
+      <div id="box" span="box"></div>
     </div>
-    <br />
-    <div id="box" span="box"></div>
 
     <script src="./js/script.js"></script>
   </body>
